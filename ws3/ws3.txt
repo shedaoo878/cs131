@@ -1,0 +1,9 @@
+Number of Reviews		   Review ID
+997      	  		   50068216
+996      	 	           51147790
+9964      			   50732546
+
+product_id	total_votes
+0446677450	999
+0071381392	993
+0914513400	991

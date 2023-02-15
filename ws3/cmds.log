@@ -1,0 +1,174 @@
+    1  wget www.github.com
+    2  cd ~/Desktop
+    3  cd ~/Users/prashanthedaoo/Desktop
+    4  ls
+    5  wget www.github.com
+    6  cd
+    7  ls
+    8  /ls
+    9  cd Desktop
+   10  cd ~/Desktop
+   11  ~/
+   12  cd -
+   13  cd-
+   14  cd~
+   15  cd ~
+   16  ls
+   17  cd ~
+   18  ls
+   19  git init
+   20  touch test.txt
+   21  git status
+   22  ls
+   23  git commit -m "This is my first commit!"
+   24  git status
+   25  git add test.txt
+   26  git status
+   27  git commit -m "This is my first commit!"
+   28  git config --global user.email "shivansh.hedaoo@sjsu.edu"
+   29  git commit -m "This is my first commit!"
+   30  Omit --global
+   31  git branch
+   32  git status
+   33  git checkout -b <my branch name>
+   34  git checkout -b >new-branch>
+   35  git commit
+   36   git config --global user.email "shivhedaoo7@gmail.com"
+   37   git config --global user.name "Shivansh"
+   38  git commit
+   39  ping 172.31.197.164
+   40  git remote add origin git@github.com:shedaoo878/cs131.git
+   41  git branch -M main
+   42  git push -u origin main
+   43  ls
+   44  echo "# cs131" >> README.md
+   45  git init
+   46  git commit -m "first commit"
+   47  git branch -M main
+   48  git remote add origin git@github.com:shedaoo878/cs131.git
+   49  git push -u origin main
+   50   rm -fr .git
+   51  git status
+   52  defaults write com.apple.finder AppleShowAllFiles 1 && killall Finder
+   53  rm -fr .git
+   54  git status
+   55  ls
+   56  ;
+   57  ls
+   58  git init
+   59  git commit -m "first commit"
+   60  git remote add origin git@github.com:shedaoo878/cs131.git
+   61  git branch -M main
+   62  git push -u origin main
+   63  git branch -M main
+   64  git remote add origin git@github.com:shedaoo878/cs131.git
+   65  git push -u origin main
+   66  git branch -M main
+   67  git remote add origin git@github.com:shedaoo878/cs131.git
+   68  git push -u origin main
+   69  git branch -M main
+   70  git remote add origin https://github.com/shedaoo878/cs131.git
+   71  git push -u origin main
+   72  ls
+   73  wget www.github.com
+   74  ls
+   75  history > cmds.log
+   76  ls
+   77  git add cmds.log
+   78  git commit
+   79  git commit - new commit""
+   80  git commit -m "git commit"
+   81  git status
+   82  ls
+   83  pwd
+   84  /home
+   85  cat index.html
+   86  wq:wqwq
+   87  q:
+   88  man ls
+   89  ls
+   90  ls -latr
+   91  ls -a
+   92  ls -l
+   93  ls -lat
+   94  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+   95  ls
+   96  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+   97  ls
+   98  grep verified amazon_reviews_us_Books_v1_02.tsv
+   99  grep  verified true amazon_reviews_us_Books_v1_02.tsv
+  100  head amazon_reviews_us_Books_v1_02.tsv
+  101  -H --q verified_purchase:Y amazon_reviews_us_Books_v1_02.tsv
+  102  ls
+  103  cut -c11 amazon_reviews_us_Books_v1_02.tsv | grep Y
+  104  cut -c11 cut -c11 amazon_reviews_us_Books_v1_02.tsv | grep Y
+  105  cut -c11 amazon_reviews_us_Books_v1_02.tsv
+  106  cut -c12 amazon_reviews_us_Books_v1_02.tsv
+  107  cut c-12 amazon_reviews_us_Books_v1_02.tsv
+  108  cut -c12 amazon_reviews_us_Books_v1_02.tsv
+  109  cut -c11 amazon_reviews_us_Books_v1_02.tsv
+  110  cut -c3 amazon_reviews_us_Books_v1_02.tsv
+  111  cut -c12 | grep Y
+  112  cut -c12 amazon_reviews_us_Books_v1_02.tsv | grep Y
+  113  ls
+  114  ls -a
+  115  rm -rf .git
+  116  ls -a
+  117  mkdir cs131
+  118  ls
+  119  cd cs131
+  120  mkdir ws1
+  121  mkdir ws2
+  122  mkdir ws3
+  123  ls
+  124  git init 
+  125  git status
+  126  ../index.html ws1
+  127  mv ../index.html ws1
+  128  ls ws1
+  129  git add .
+  130  git commit -m "first commit"
+  131  git remote add origin https://github.com/shedaoo878/cs131.git
+  132  git push -u origin master
+  133  ls
+  134  cd cs131
+  154  head amazon_reviews_us_Books_v1_02.tsv
+  155  sort -k2 -n amazon_reviews_us_Books_v1_02.tsv
+  156  sort | uniq -k2 -c sort | uniq
+  157  sort | uniq -k2 -c amazon_reviews_us_Books_v1_02.tsv
+  158  sot -k2 -n amazon_reviews_us_Books_v1_02.tsv | uniq -c
+  159  sort -k2 -n amazon_reviews_us_Books_v1_02.tsv | uniq -c
+  160  sort -k2 -n amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -k1 -n | uniq
+  161  sort -k2 -n amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -k1 -n | uniq -c
+  162  head amazon_reviews_us_Books_v1_02.tsv
+  163  cut -f1 amazon_reviews_us_Books_v1_02.tsv > numbers.txt
+  164  cut -f2 amazon_reviews_us_Books_v1_02.tsv > numbers.txt
+  165  ls
+  166  sort numbers.txt | uniq -c
+  167  sort numbers.txt | uniq -c > numbers2.txt
+  168  sort -k1 -r numbers2.txt
+  169  sort -k1 -r numbers2.txt | head -3
+  170  sort -k1 -r numbers2.txt | head -3 > ws3.txt
+  171  ls
+  172  history > cmds.log
+  173  head cmds.log
+  174  cat cmds.log
+  175  cast ws3.txt
+  176  cat ws3.txt
+  177  head -3 votes.txt
+  191  sort -k2 votes.txt | head -4 
+  192  sort -k2 -r votes.txt | head -4
+  193  sort -k2 -r votes.txt | head -4 > ws3.txt
+  194  cat ws3.txt
+  196  head -3 numbers2.txt
+  197  sort -k1 -r numbers2.text | head -3
+  198   sort -k1 -r numbers2.txt | head -3
+  199  sort -k1 -r numbers2.txt | head -3 > ws3.txt
+  200  cat ws3.txt
+  201  sort -k2 -r votes.txt | head -4 >> ws3.txt
+  202  cast ws3.txt
+  203  cat ws3.txt
+  204  head amazon_reviews_us_Books_v1_02.tsv
+  205  history >cmds.log
+  206  vi ws3.txts
+  214  history > cmds.log
