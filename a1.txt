@@ -1,0 +1,87 @@
+Script started on 2023-02-27 16:00:22-05:00
+bash-4.4$ cd -
+/mnt/scratch/shivansh23sp
+bash-4.4$ ls
+amazon_reviews_us_Books_v1_02.tsv  c.log    cs131	  index.html.2	numbers.txt  prods.txt	README.md   w4.txt
+c.lo				   cms.log  index.html.1  numbers2.txt	pr2.txt      pr.txt	sprods.txt
+bash-4.4$ pwd
+/mnt/scratch/shivansh23sp
+bash-4.4$ cat etc/passwd
+cat: etc/passwd: No such file or directory
+bash-4.4$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+polkitd:x:998:996:User for polkitd:/:/sbin/nologin
+clevis:x:997:992:Clevis Decryption Framework unprivileged user:/var/cache/clevis:/sbin/nologin
+unbound:x:996:991:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+libstoragemgmt:x:995:990:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+setroubleshoot:x:994:989::/var/lib/setroubleshoot:/sbin/nologin
+cockpit-ws:x:993:988:User for cockpit web service:/nonexisting:/sbin/nologin
+cockpit-wsinstance:x:992:987:User for cockpit-ws instances:/nonexisting:/sbin/nologin
+sssd:x:991:986:User for sssd:/:/sbin/nologin
+chrony:x:990:985::/var/lib/chrony:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+cloud-user:x:1000:1000:Cloud User:/home/cloud-user:/bin/bash
+test:x:1001:1001::/home/test:/bin/bash
+benjamin:x:1002:1002::/home/benjamin:/bin/bash
+rishabh:x:1003:1003::/home/rishabh:/bin/bash
+bryant:x:1004:1004::/home/bryant:/bin/bash
+shivam:x:1005:1005::/home/shivam:/bin/bash
+jose:x:1006:1006::/home/jose:/bin/bash
+sohan:x:1007:1007::/home/sohan:/bin/bash
+uyen:x:1008:1008::/home/uyen:/bin/bash
+ananya:x:1009:1009::/home/ananya:/bin/bash
+ahmad:x:1010:1010::/home/ahmad:/bin/bash
+amirali:x:1011:1011::/home/amirali:/bin/bash
+chloe:x:1012:1012::/home/chloe:/bin/bash
+shubhu:x:1013:1013::/home/shubhu:/bin/bash
+siddharth:x:1014:1014::/home/siddharth:/bin/bash
+jessie:x:1015:1015::/home/jessie:/bin/bash
+shota:x:1016:1016::/home/shota:/bin/bash
+shamika:x:1017:1017::/home/shamika:/bin/bash
+julissa:x:1018:1018::/home/julissa:/bin/bash
+jerry:x:1019:1019::/home/jerry:/bin/bash
+elvir:x:1020:1020::/home/elvir:/bin/bash
+eric:x:1021:1021::/home/eric:/bin/bash
+guoman:x:1022:1022::/home/guoman:/bin/bash
+karan:x:1023:1023::/home/karan:/bin/bash
+kevin:x:1024:1024::/home/kevin:/bin/bash
+hannele:x:1025:1025::/home/hannele:/bin/bash
+harrison:x:1026:1026::/home/harrison:/bin/bash
+huy:x:1027:1027::/home/huy:/bin/bash
+hyeyeon:x:1028:1028::/home/hyeyeon:/bin/bash
+jeremiah:x:1029:1029::/home/jeremiah:/bin/bash
+mohit:x:1030:1030::/home/mohit:/bin/bash
+obeda:x:1031:1031::/home/obeda:/bin/bash
+reagan:x:1032:1032::/home/reagan:/bin/bash
+luc:x:1033:1033::/home/luc:/bin/bash
+khang:x:1034:1034::/home/khang:/bin/bash
+fei:x:1035:1035::/home/fei:/bin/bash
+vivian:x:1036:1036::/home/vivian:/bin/bash
+test2:x:1037:1037::/home/test2:/bin/bash
+allen:x:1038:1038::/home/allen:/bin/bash
+gaby:x:1039:1040::/home/gaby:/bin/bash
+brian:x:1040:1041::/home/brian:/bin/bash
+abhi:x:1041:1043::/home/abhi:/bin/bash
+sai23sp:x:1042:1044::/mnt/scratch/sai23sp:/bin/bash
+austin23sp:x:1043:1045::/mnt/scratch/austin23sp:/bin/bash
+sarthak23sp:x:1044:1046::/mnt/scratch/sarthak23sp:/bin/bash
+peter23sp:x:1045:1047::/mnt/scratch/peter23sp:/bin/bash
+dhru23sp:x:1046:1048::/mnt/scratch/dhru23sp:/bin/bash
+chih-kuo23sp:x:1047:1049::/mnt/scratch/chih-k
