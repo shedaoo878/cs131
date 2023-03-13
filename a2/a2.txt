@@ -1,0 +1,84 @@
+Problem 1
+bash-4.4$ grep replied_to downloaded_tweets_extend_original_nolf2.tsv | cut -f2 | sort -n | uniq -c | sort -nr | head -10
+    106 380648579
+    104 18831926
+     83 16050065
+     45 1240682348120866816
+     35 1094971056358637568
+     34 140496030
+     34 1387010761994682371
+     32 172323296
+     27 117810351
+     19 1573800344
+
+
+Problem 3
+bash-4.4$ grep retweeted downloaded_tweets_extend_nolf2.tsv |  cut -f2 | sort -n | uniq -c | sort -nr | head -10
+   2065 45379403
+   1678 77726331
+   1641 870244616003403781
+   1582 1028022611324747776
+   1312 711608180535640064
+   1281 139109800
+   1234 177400353
+   1216 832019161454817280
+   1159 29447428
+   1139 1060440219097423872
+
+
+
+
+Problem 2
+bash-4.4$ grep replied_to downloaded_tweets_extend_original_nolf2.tsv | cut -f5 | sort | uniq -c | sort -nr | head -10
+      9 [<ReferencedTweet id=1334141244474322944 type=replied_to]
+      4 [<ReferencedTweet id=1504834590560632839 type=replied_to]
+      4 [<ReferencedTweet id=1496938386342490117 type=replied_to]
+      4 [<ReferencedTweet id=1481497693767991296 type=replied_to]
+      4 [<ReferencedTweet id=1479151146409287690 type=replied_to]
+      3 [<ReferencedTweet id=1517870431281328129 type=replied_to]
+      3 [<ReferencedTweet id=1516352988301852675 type=replied_to]
+      3 [<ReferencedTweet id=1513498039297744896 type=replied_to]
+      3 [<ReferencedTweet id=1512553760215932929 type=replied_to]
+      3 [<ReferencedTweet id=1506438947366449156 type=replied_to]
+
+
+
+
+
+Problem 4
+bash-4.4$ cut -f4 downloaded_tweets_extend_nolf2.tsv | sort | uniq -c | sort -nr | head -30[K1
+  20647 
+   1266 Ukraine
+    945 COVID19
+    870 LongCovid
+    833 "FBPE,FollowBackFriday"
+    320 Russia
+    305 BREAKING
+    257 PMQs
+    208 auspol
+    181 StandWithUkraine
+    177 AmiesMovieRating
+    176 Omicron
+    168 Mariupol
+    136 Kyiv
+    135 BA2
+    122 "Russia,Ukraine"
+    120 COVID
+    118 Bales2022FilmChallenge
+    111 Putin
+    108 COVIDisAirborne
+    107 "PutinHitler,StandWithUkraine,PutinHitler,PutinWarCriminal,StopPutinNOW,RussiaSanctions,BoycottRussia"
+    107 ClimateCrisis
+    106 BoycottATP
+    105 Russian
+     98 "cathrynhartt,harttandsoul,actor,actorslife"
+     97 Covid19
+     93 Partygate
+     87 TikTok
+     85 longcovid
+     80 Ottawa
+     79 Brexit
+bash-4.4$ exit
+exit
+
+Script done on 2023-03-13 15:19:21-04:00
